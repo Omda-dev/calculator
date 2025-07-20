@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>tryCalc</title>
+  <link rel="stylesheet" href="trycalc.css" />  </head>
+
+  <body>
+    <h1>Try My Calculator</h1>
+    <div class="calculator">
+      <input type="text" id="desply" disabled />
+      <div class="numbers">
+        <button onclick="clearS()" class="clear">C</button>
+        <button onclick="numbers(`/`)" class="operation">/</button>
+        <button onclick="numbers(`*`)" class="operation">*</button>
+        <button onclick="numbers(`+`)" class="operation">+</button>
+        <button onclick="numbers(`1`)" class="number">1</button>
+        <button onclick="numbers(`2`)" class="number">2</button>
+        <button onclick="numbers(`3`)" class="number">3</button>
+        <button onclick="numbers(`-`)" class="operation">-</button>
+        <button onclick="numbers(`4`)" class="number">4</button>
+        <button onclick="numbers(`5`)" class="number">5</button>
+        <button onclick="numbers(`6`)" class="number">6</button>
+        <button onclick="calculate()" class="equal">=</button>
+        <button onclick="numbers(`7`)" class="number">7</button>
+        <button onclick="numbers(`8`)" class="number">8</button>
+        <button onclick="numbers(`9`)" class="number">9</button>
+                <button onclick="deleteLast()" class="delete">⌫</button>
+
+        <button onclick="numbers(`0`)" class="number">0</button>
+        <button onclick="numbers(`.`)" class="number">.</button>
+      </div>
+    </div>
+  <script src="trycalc.js"></script>
+  </body>
+</html>

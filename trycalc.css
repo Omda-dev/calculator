@@ -1,0 +1,81 @@
+ body {
+      background: radial-gradient(circle, #aba9a9, #252525);
+    }
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: #282728;
+      text-shadow: 2px 2px 4px #0000004f;
+    }
+    .calculator {
+      width: 340px;
+      background-color: rgb(255, 255, 255);
+      text-align: center;
+      display: grid;
+      justify-content: center;
+      margin: auto;
+      margin-top: 50px;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.497);
+    }
+    .calculator > input {
+      width: 320px;
+      height: 40px;
+      border: 1px solid rgba(0, 0, 0, 0.42);
+      margin: 10px;
+      border-radius: 5px;
+      padding-left: 10px;
+      font-size: 20px;
+    }
+    .numbers {
+      display: grid;
+      grid-template-columns: 80px 80px 80px 80px;
+      justify-content: center;
+    }
+    .numbers > button {
+      height: 60px;
+      justify-content: center;
+      margin: 5px;
+      border: none;
+      border-radius: 7px;
+      font-size: 20px;
+      cursor: pointer;
+      transition: 1s;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.258);
+    }
+    .number:hover {
+      background-color: rgb(124, 126, 127);
+    }
+    .clear {
+      background-color: rgb(235, 58, 58);
+      color: white;
+      font-size: 20px;
+    }
+    .clear:hover {
+      background-color: rgb(171, 9, 9);
+    }
+    .operation {
+      background-color: rgb(65, 115, 250);
+      color: white;
+      font-size: 20px;
+    }
+    .operation:hover {
+      background-color: rgb(1, 54, 201);
+    }
+    .equal {
+      background-color: rgb(24, 191, 24);
+      color: white;
+      font-size: 20px;
+    }
+    .equal:hover {
+      background-color: rgb(3, 128, 3);
+    }
+    .delete {
+      background-color: aqua;
+    }
+     .delete:hover {
+            background-color: rgb(3, 106, 106);
+     }
