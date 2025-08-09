@@ -19,7 +19,7 @@ Performs simple arithmetic operations like addition, subtraction, multiplication
 
 ## 📸 Preview
 
-> _You can add a screenshot here after uploading the project._
+![Calculator Preview](./images/Screenshot_25-7-2025_51246_.jpeg)
 
 ---
 
